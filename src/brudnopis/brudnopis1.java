@@ -1,6 +1,5 @@
 package brudnopis;
 
-
 public class brudnopis1 {
     public static void main(String[] args) {
 
@@ -24,6 +23,5 @@ public class brudnopis1 {
                 System.out.println(opis);
             }
         }
-
     }
 }
