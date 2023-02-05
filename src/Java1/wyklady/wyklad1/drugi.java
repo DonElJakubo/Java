@@ -1,4 +1,4 @@
-package Cwiczenia1.wyklady;
+package Java1.wyklady.wyklad1;
 
 public class drugi {
     public static void main(String[] args) {

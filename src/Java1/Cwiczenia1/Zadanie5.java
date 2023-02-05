@@ -1,4 +1,4 @@
-package Cwiczenia1;
+package Java1.Cwiczenia1;
 
 public class Zadanie5 {
     public static void main(String[] args) {
