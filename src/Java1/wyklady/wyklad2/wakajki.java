@@ -34,21 +34,24 @@ public class wakajki {
                 break;
         }
         int tydzien = (int) (Math.random()*4);
+        System.out.println("Kalendarz z miesiącami oraz co polecam robić w ich poszczególnych tygocniach:");
 
         switch (month) {
             case "Styczeń":
                 System.out.println("Styczeń - Idealny na sporty zimowe");
+                System.out.println("W tym tygodniu polecam: ");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("narty");
+                        System.out.println("tydzień pierwszy: narty");
                         break;
                     case 2:
-                        System.out.println("sanki");
+                        System.out.println("tydzień drugi: sanki");
                         break;
                     case 3:
-                        System.out.println("zimowe zjeżdalnie ");
+                        System.out.println("tydzień trzeci: zimowe zjeżdalnie ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("inne jakieś ale zimowe");
                         break;
                 } break;
@@ -56,15 +59,18 @@ public class wakajki {
                 System.out.println("Luty - dalej zimowe");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("narty");
+                        System.out.println("tydzień pierwszy: narty");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("sanki");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("zimowe zjeżdalnie ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("inne jakieś ale zimowe");
                         break;
                 } break;
@@ -72,15 +78,18 @@ public class wakajki {
                 System.out.println("Marzec- Już wiosenne");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("rolki");
+                        System.out.println("tydzień pierwszy: rolki");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("wrotki");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("basen zamknięty ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("wspinaczka");
                         break;
                 } break;
@@ -88,15 +97,18 @@ public class wakajki {
                 System.out.println("Kwiecień - dalej wiosenne");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("wspinaczka");
+                        System.out.println("tydzień pierwszy: wspinaczka");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("basen zamknięty");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("rower");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("bieganie");
                         break;
                 }break;
@@ -104,15 +116,18 @@ public class wakajki {
                 System.out.println("Maj - no majówka to można się napić");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("pijemy");
+                        System.out.println("tydzień pierwszy: pijemy");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("bieganie");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("rower");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("wspinaczka");
                         break;
                 }break;
@@ -120,15 +135,18 @@ public class wakajki {
                 System.out.println("Czerwiec - no to już lato");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("pływanie");
+                        System.out.println("tydzień pierwszy: pływanie");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("skoki ze spadochronu");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("rower ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("piłka nożna");
                         break;
                 }break;
@@ -136,15 +154,18 @@ public class wakajki {
                 System.out.println("Lipiec - trochę odpoczynku więc zwiedzanie i leżenie");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("ciepło więc odpoczywamy");
+                        System.out.println("tydzień pierwszy: ciepło więc odpoczywamy");
                         break;
                     case 2:
+                        System.out.println("tydzień drugi: sanki");
                         System.out.println("dalej na leniwo");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("można pozwiedzać HeadFirst.drugie.nowe miejsca ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("wyjazdy na wakajki");
                         break;
                 }break;
@@ -152,15 +173,18 @@ public class wakajki {
                 System.out.println("Sierpień -  ciepło więc nad morzem ");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("pływanie");
+                        System.out.println("tydzień pierwszy: pływanie");
                         break;
                     case 2:
+                        System.out.print("tydzień drugi: ");
                         System.out.println("deptaki w świeradowie i leniuchowanie");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("motor ");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("dalej motor");
                         break;
                 }break;
@@ -168,15 +192,18 @@ public class wakajki {
                 System.out.println("Wrzesień - ostatni miesiąc dla studentów");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("wspinaczka");
+                        System.out.println("tydzień pierwszy: wspinaczka");
                         break;
                     case 2:
+                        System.out.print("tydzień drugi: ");
                         System.out.println("basen zakryty");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("rower");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("ostatnia szansa na tygodniowy wypad");
                         break;
                 }break;
@@ -184,15 +211,18 @@ public class wakajki {
                 System.out.println("Październik - no to jesień mocna i zimna");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("pada więc niezbyt");
+                        System.out.println("tydzień pierwszy: pada więc niezbyt");
                         break;
                     case 2:
+                        System.out.print("tydzień drugi: ");
                         System.out.println("pewnie dalej słaba pogoda to w domku");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("już zimno ale dużo błota");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("jak jest jakiś śnieg to stopnieje za godzine");
                         break;
                 }break;
@@ -200,15 +230,18 @@ public class wakajki {
                 System.out.println("Listopad - początek zimy to można sporty ziomowe jakieś");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("zwiedzanie gór");
+                        System.out.println("tydzień pierwszy: zwiedzanie gór");
                         break;
                     case 2:
+                        System.out.print("tydzień drugi: ");
                         System.out.println("jakieś wyjazdy za granicę bo w innych krajach jeszcze ciepło");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("odpoczywanko");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("może już narty jak jest śnieg");
                         break;
                 }break;
@@ -216,15 +249,18 @@ public class wakajki {
                 System.out.println("Grudzień - Na święta to mniej ale też można");
                 switch (tydzien) {
                     case 1:
-                        System.out.println("Mikołaj to odpoczywamy");
+                        System.out.println("tydzień pierwszy: Mikołaj to odpoczywamy");
                         break;
                     case 2:
+                        System.out.print("tydzień drugi: ");
                         System.out.println("tu można jakieś narty");
                         break;
                     case 3:
+                        System.out.print("tydzień trzeci: ");
                         System.out.println("przygotowujemy się do świąt");
                         break;
                     default:
+                        System.out.print("tydzień czwarty: ");
                         System.out.println("święta, jemy i sił nie mamy ");
                         break;
                 }break;

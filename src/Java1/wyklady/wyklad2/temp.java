@@ -6,8 +6,7 @@ public class temp {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int randomNumber = random.nextInt(201) - 100;
-        int temperatura = randomNumber;
+        int temperatura = random.nextInt(201) - 100;
         if (temperatura < 100) {
             String stanSkupienia;
             System.out.println("Temp: " + temperatura);
