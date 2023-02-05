@@ -142,7 +142,7 @@ public class wakajki {
                         System.out.println("dalej na leniwo");
                         break;
                     case 3:
-                        System.out.println("można pozwiedzać nowe miejsca ");
+                        System.out.println("można pozwiedzać HeadFirst.drugie.nowe miejsca ");
                         break;
                     default:
                         System.out.println("wyjazdy na wakajki");
@@ -228,7 +228,6 @@ public class wakajki {
                         System.out.println("święta, jemy i sił nie mamy ");
                         break;
                 }break;
-
         }
     }
 }
