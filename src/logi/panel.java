@@ -1,4 +1,4 @@
-package logarytmy;
+package logi;
 
 import java.awt.*;
 import javax.swing.*;
