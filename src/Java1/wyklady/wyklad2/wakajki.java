@@ -162,7 +162,7 @@ public class wakajki {
                         break;
                     case 3:
                         System.out.print("tydzień trzeci: ");
-                        System.out.println("można pozwiedzać HeadFirst.drugie.nowe miejsca ");
+                        System.out.println("można pozwiedzać HeadFirst.nowe miejsca ");
                         break;
                     default:
                         System.out.print("tydzień czwarty: ");
