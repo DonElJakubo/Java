@@ -1,9 +1,0 @@
-Networkowanie Java to technika programowania umożliwiająca tworzenie aplikacji do komunikacji między platformami sprzętowymi,
-systemami operacyjnymi i językami programowania. Umożliwia ona tworzenie aplikacji do wymiany danych w sieci komputerowej za pomocą protokołów sieciowych takich jak TCP/IP.
-Umożliwia to tworzenie aplikacji klienckich i serwerowych, które mogą wymieniać dane w sieci.
-Networkowanie Java również ułatwia tworzenie aplikacji sieciowych wykorzystujących usługi sieciowe, takie jak e-mail, pliki, czaty i inne.
-podaj przykład networkingu w Java
-
-Jednym z przykładów networkingu w Javie jest tworzenie aplikacji klienckiej, która może komunikować się z serwerem za pomocą protokołu sieciowego TCP/IP.
-Przykład takiej aplikacji to program do wysyłania i odbierania wiadomości e-mail.
-Program ten może nawiązywać połączenie z serwerem pocztowym za pomocą protokołu TCP/IP i wysyłać i odbierać wiadomości e-mail.
