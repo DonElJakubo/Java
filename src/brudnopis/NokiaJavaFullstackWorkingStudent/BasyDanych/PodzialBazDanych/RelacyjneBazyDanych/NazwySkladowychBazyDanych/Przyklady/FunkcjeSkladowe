@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE FUNCTION nazwa_funkcji (parametr1 TypDanych, parametr2 TypDanych) RETURNS TypDanych AS BEGIN SELECT * FROM nazwa_tabeli END;

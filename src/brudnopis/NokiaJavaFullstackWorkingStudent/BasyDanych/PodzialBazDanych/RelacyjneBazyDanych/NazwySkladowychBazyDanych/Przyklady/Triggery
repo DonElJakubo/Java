@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE TRIGGER nazwa_triggera ON nazwa_tabeli FOR INSERT AS BEGIN SELECT * FROM nazwa_tabeli END;

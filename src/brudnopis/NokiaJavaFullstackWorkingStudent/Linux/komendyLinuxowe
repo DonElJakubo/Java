@@ -1,0 +1,126 @@
+Lista 60 komend Linuxowych:
+
+1. cd (Change Directory) - Komenda służy do przejścia do określonego katalogu. Przykład użycia: cd /home/user/docs
+
+2. ls (List) - Komenda służy do wyświetlania zawartości aktualnego katalogu. Przykład użycia: ls
+
+3. mv (Move) - Komenda służy do przenoszenia plików lub katalogów do innego miejsca. Przykład użycia: mv file1 file2
+
+4. cp (Copy) - Komenda służy do tworzenia kopii plików lub katalogów. Przykład użycia: cp file1 file2
+
+5. rm (Remove) - Komenda służy do usuwania plików lub katalogów. Przykład użycia: rm file1
+
+6. mkdir (Make Directory) - Komenda służy do tworzenia nowych katalogów. Przykład użycia: mkdir dir1
+
+7. chmod (Change Mode) - Komenda służy do zmiany uprawnień dostępu do plików lub katalogów. Przykład użycia: chmod 777 file1
+
+8. find (Find) - Komenda służy do wyszukiwania plików i katalogów. Przykład użycia: find / -name file1
+
+9. grep (Global Regular Expression Print) - Komenda służy do wyszukiwania wyrażeń regularnych w plikach. Przykład użycia: grep "text" file1
+
+10. man (Manual) - Komenda służy do wyświetlania podręczników użytkownika. Przykład użycia: man ls
+
+
+11. cat (Concatenate) - Komenda służy do wyświetlania zawartości plików. Przykład użycia: cat file1
+
+12. chown (Change Owner) - Komenda służy do zmiany właściciela plików lub katalogów. Przykład użycia: chown user1 file1
+
+13. echo (Echo) - Komenda służy do wyświetlenia tekstu na standardowym wyjściu. Przykład użycia: echo "Hello World"
+
+14. ps (Process Status) - Komenda służy do wyświetlania informacji o aktywnych procesach. Przykład użycia: ps aux
+
+15. pwd (Print Working Directory) - Komenda służy do wyświetlenia aktualnego katalogu. Przykład użycia: pwd
+
+16. clear (Clear) - Komenda służy do czyszczenia terminala. Przykład użycia: clear
+
+17. top (Top) - Komenda służy do wyświetlenia listy wszystkich procesów. Przykład użycia: top
+
+18. kill (Kill) - Komenda służy do zabijania procesów. Przykład użycia: kill -9 pid
+
+19. chgrp (Change Group) - Komenda służy do zmiany grupy plików lub katalogów. Przykład użycia: chgrp group1 file1
+
+20. ssh (Secure Shell) - Komenda służy do połączenia się zdalnie z innym komputerem. Przykład użycia: ssh user1@host1
+
+
+21. whoami (Who Am I) - Komenda służy do wyświetlenia nazwy użytkownika. Przykład użycia: whoami
+
+22. su (Switch User) - Komenda służy do przełączania się między użytkownikami. Przykład użycia: su user1
+
+23. date (Date) - Komenda służy do wyświetlenia aktualnej daty i godziny. Przykład użycia: date
+
+24. df (Disk Free) - Komenda służy do wyświetlenia informacji o wolnym miejscu na dysku. Przykład użycia: df -h
+
+25. du (Disk Usage) - Komenda służy do wyświetlenia informacji o wykorzystanym miejscu na dysku. Przykład użycia: du -h
+
+26. uname (Unix Name) - Komenda służy do wyświetlenia informacji o systemie operacyjnym. Przykład użycia: uname -a
+
+27. tar (Tape Archive) - Komenda służy do tworzenia i rozpakowywania archiwów. Przykład użycia: tar -cvf archive.tar file1
+
+28. gzip (GNU Zip) - Komenda służy do kompresji i dekompresji plików. Przykład użycia: gzip file1
+
+29. chkconfig (Check Configuration) - Komenda służy do wyświetlenia i zmiany ustawień usług systemu. Przykład użycia: chkconfig --list
+
+30. ifconfig (Interface Configuration) - Komenda służy do wyświetlenia informacji o interfejsie sieciowym. Przykład użycia: ifconfig
+
+
+31. ping (Packet Internet Groper) - Komenda służy do sprawdzania dostępności komputerów w sieci. Przykład użycia: ping www.google.com
+
+32. route (Show/Manipulate the IP routing table) - Komenda służy do wyświetlania i manipulowania trasami sieciowymi. Przykład użycia: route -n
+
+33. traceroute (Trace Route) - Komenda służy do wykonania śledzenia trasy do innego komputera. Przykład użycia: traceroute www.google.com
+
+34. netstat (Network Statistics) - Komenda służy do wyświetlenia statystyk sieciowych. Przykład użycia: netstat -an
+
+35. shutdown (Shutdown) - Komenda służy do zamykania systemu. Przykład użycia: shutdown -h now
+
+36. reboot (Reboot) - Komenda służy do restartowania systemu. Przykład użycia: reboot
+
+37. hostname (Hostname) - Komenda służy do wyświetlenia lub zmiany nazwy komputera. Przykład użycia: hostname myhost
+
+38. lspci (List PCI) - Komenda służy do wyświetlenia informacji o kartach PCI. Przykład użycia: lspci -k
+
+39. dmesg (Display Message) - Komenda służy do wyświetlania wiadomości systemu. Przykład użycia: dmesg
+
+40. w (Who) - Komenda służy do wyświetlenia listy użytkowników. Przykład użycia: w
+
+
+41. uptime (Uptime) - Komenda służy do wyświetlenia informacji o czasie pracy systemu. Przykład użycia: uptime
+
+42. last (Last) - Komenda służy do wyświetlenia listy ostatnich logowań. Przykład użycia: last
+
+43. ln (Link) - Komenda służy do tworzenia dowiązań między plikami. Przykład użycia: ln -s file1 link1
+
+44. chkdsk (Check Disk) - Komenda służy do sprawdzania dysku pod kątem błędów. Przykład użycia: chkdsk /f
+
+45. df (Disk Free) - Komenda służy do wyświetlenia informacji o wolnym miejscu na dysku. Przykład użycia: df -h
+
+46. free (Free Memory) - Komenda służy do wyświetlenia informacji o wolnej pamięci. Przykład użycia: free -m
+
+47. mount (Mount) - Komenda służy do montowania urządzeń w systemie plików. Przykład użycia: mount /dev/sdX /mnt
+
+48. umount (Unmount) - Komenda służy do odmontowywania urządzeń z systemu plików. Przykład użycia: umount /mnt
+
+49. parted (Parted) - Komenda służy do tworzenia i edytowania partycji dyskowych. Przykład użycia: parted /dev/sdX
+
+50. fdisk (Fixed Disk) - Komenda służy do tworzenia i edytowania partycji dyskowych. Przykład użycia: fdisk /dev/sdX
+
+
+51. lsblk (List Block Devices) - Komenda służy do wyświetlania informacji o urządzeniach blokowych. Przykład użycia: lsblk
+
+52. cfdisk (Curses-based Fdisk) - Komenda służy do tworzenia i edytowania partycji dyskowych za pomocą interfejsu tekstowego. Przykład użycia: cfdisk /dev/sdX
+
+53. ifup (Interface Up) - Komenda służy do uruchamiania interfejsów sieciowych. Przykład użycia: ifup eth0
+
+54. ifdown (Interface Down) - Komenda służy do wyłączania interfejsów sieciowych. Przykład użycia: ifdown eth0
+
+55. ip (IP Utilities) - Komenda służy do konfigurowania i zarządzania interfejsami sieciowymi. Przykład użycia: ip addr show
+
+56. nmap (Network Mapper) - Komenda służy do skanowania sieci pod kątem zabezpieczeń. Przykład użycia: nmap -sV www.example.com
+
+57. arp (Address Resolution Protocol) - Komenda służy do wyświetlenia i manipulowania tablicą ARP. Przykład użycia: arp -a
+
+58. tracepath (Trace Path) - Komenda służy do wykonania śledzenia trasy do innego komputera. Przykład użycia: tracepath www.google.com
+
+59. dig (Domain Information Groper) - Komenda służy do wykonywania zapytań DNS. Przykład użycia: dig www.google.com
+
+60. hdparm (Hard Disk Parameter) - Komenda służy do konfiguracji parametrów dysków twardych. Przykład użycia: hdparm -i /dev/sdX

@@ -1,0 +1,40 @@
+
+Opis:
+Normalizacja - dane mają być najlepiej znormalizowane
+Aktualność danych - dane mają się aktualizować (np. co 24 godziny)
+Inegralność danych  - integralność musi być na bardzo wysokim poziomie
+
+Przykład:
+
+CREATE TABLE Adresy (
+    AdresID INTEGER,
+    Ulica VARCHAR(50) NOT NULL,
+    Miasto VARCHAR(50) NOT NULL,
+    Kod_pocztowy VARCHAR(10) NOT NULL,
+    Data_aktualizacji DATETIME NOT NULL
+    );
+
+INSERT INTO Adresy (AdresID, Ulica, Miasto, Kod_pocztowy, Data_aktualizacji)
+VALUES (1, 'Broadway', 'New York', '12345', CURRENT_TIMESTAMP);
+
+CREATE TRIGGER Adresy_aktualizacja
+AFTER UPDATE ON Adresy
+FOR EACH ROW
+BEGIN
+    UPDATE Adresy
+    SET Data_aktualizacji = CURRENT_TIMESTAMP
+    WHERE AdresID = NEW.AdresID;
+END;
+
+CREATE PROCEDURE AktualizujAdres
+    (IN AdresID INTEGER,
+     IN Ulica VARCHAR(50),
+     IN Miasto VARCHAR(50),
+     IN Kod_pocztowy VARCHAR(10))
+BEGIN
+    UPDATE Adresy
+    SET Ulica = Ulica,
+        Miasto = Miasto,
+        Kod_pocztowy = Kod_pocztowy
+    WHERE AdresID = AdresID;
+END;

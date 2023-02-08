@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE VIEW nazwa_widoku AS SELECT * FROM nazwa_tabeli;

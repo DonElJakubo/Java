@@ -1,0 +1,6 @@
+2. Aktualność danych: Dane powinny być zawsze aktualne, aby zapewnić ich poprawność i aktualność.
+
+Przykład:
+UPDATE Adresy
+SET Ulica = 'Broadway'
+WHERE AdresID = 1;

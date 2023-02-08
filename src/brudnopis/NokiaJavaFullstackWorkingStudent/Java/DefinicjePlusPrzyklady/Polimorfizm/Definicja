@@ -1,0 +1,3 @@
+Polimorfizm w Javie to mechanizm pozwalający na wywoływanie różnych metod w zależności od typu obiektu.
+Oznacza to, że istnieje możliwość wywołania tej samej metody z różnymi parametrami i zwraca się różne wyniki.
+Dzięki temu mechanizmowi można zdefiniować wiele jednostek kodu, które wykonują te same operacje, ale w różny sposób.

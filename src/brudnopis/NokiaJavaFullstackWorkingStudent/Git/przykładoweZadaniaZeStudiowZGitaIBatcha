@@ -1,0 +1,29 @@
+1.	Scrum skupia się na dostarczaniu ciągle udoskonalanego produktu, Kanban – na minimalizowaniu pracy w toku i doskonaleniu samej pracy.
+2.	Git fetch updatuje dane do lokalnego repozytorium natomiast git pull robi update lokalnego repozytorium, jak i kopii roboczej.
+3.	Rebase tworzy liniową strukturę, ale modyfikuje historie zmian, z kolei Merge tworzy dodatkowy commit, scalający rozwidlenia, ale powoduje to powstanie nieliniowej struktury zmian.
+4.	git diff –staged
+ git diff
+git status
+ git branch
+git log
+git tag
+     5.
+$ Git config –global user.name „YOUR NAME HERE”
+$ Git config –global user.email „your_email.@example.com”
+$ Ssh-keygen -t rsa -C „your_email.@example.com”
+$ pbcopy < ~/.ssh/id_rsa.pub
+$ ssh -T git@github.com
+git init
+git add
+git add .gitignore
+git commit
+     6.
+ git stash
+ git checkout task31
+ git checkout task30
+ git stash pop
+
+   7.
+ git chceckout task30
+ git push main task30
+ git commit -m

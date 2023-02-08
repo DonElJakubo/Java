@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE PROCEDURE nazwa_procedury AS SELECT * FROM nazwa_tabeli;

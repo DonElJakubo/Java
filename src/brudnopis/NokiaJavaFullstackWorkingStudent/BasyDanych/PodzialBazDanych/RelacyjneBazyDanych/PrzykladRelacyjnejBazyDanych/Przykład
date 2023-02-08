@@ -1,0 +1,33 @@
+PRZYKŁAD:
+
+// Tworzenie tabeli w relacyjnej bazie danych
+CREATE TABLE Pracownicy (
+    ID INT NOT NULL,
+    Imie VARCHAR(50) NOT NULL,
+    Nazwisko VARCHAR(50) NOT NULL,
+    Stanowisko VARCHAR(50) NOT NULL,
+    Pensja FLOAT NOT NULL,
+    PRIMARY KEY (ID)
+);
+INSERT INTO Pracownicy (ID, Imie, Nazwisko, Stanowisko, Pensja)
+VALUES (1, 'John', 'Smith', 'Kierownik', 120000.00);
+
+INSERT INTO Pracownicy (ID, Imie, Nazwisko, Stanowisko, Pensja)
+VALUES (2, 'Jane', 'Doe', 'Sprzedawca', 80000.00);
+
+INSERT INTO Pracownicy (ID, Imie, Nazwisko, Stanowisko, Pensja)
+VALUES (3, 'Samantha', 'Jones', 'Programista', 100000.00);
+
+INSERT INTO Pracownicy (ID, Imie, Nazwisko, Stanowisko, Pensja)
+VALUES (4, 'James', 'Johnson', 'Kierownik', 120000.00);
+
+TEST:
+
+SELECT * FROM Pracownicy;
+
+// Wyświetl wynik
+ID	Imie	Nazwisko	Stanowisko	Pensja
+1	John	Smith	Kierownik	120000.00
+2	Jane	Doe	Sprzedawca	80000.00
+3	Samantha	Jones	Programista	100000.00
+4	James	Johnson	Kierownik	120000.00

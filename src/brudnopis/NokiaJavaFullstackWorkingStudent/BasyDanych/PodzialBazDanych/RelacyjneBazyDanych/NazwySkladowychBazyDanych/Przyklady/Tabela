@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE TABLE nazwa_tabeli (kolumna1 TypDanych, kolumna2 TypDanych);

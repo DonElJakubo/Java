@@ -1,0 +1,54 @@
+CREATE TABLE Sale (
+  SaleID int ,
+  ClientID int,
+  Invoice VARCHAR(40),
+  Nett int,
+  VAT float,
+   PRIMARY KEY (SaleID)
+  );
+  
+  
+CREATE TABLE Client(
+  ClientID int ,
+  Name VARCHAR(40),
+  LastModification VARCHAR(50),
+  PRIMARY KEY (ClientID)
+ );
+   
+ ALTER TABLE Sale
+ ADD CONSTRAINT fk_ClientID
+ FOREIGN KEY (ClientID) REFERENCES Client(ClientID);
+ 
+INSERT INTO Client (ClientID, Name, LastModification)
+VALUES (1, 'Client1', '2016-12-16 11:20:43.887')
+ INSERT INTO Client (ClientID, Name, LastModification)
+VALUES (2, 'Client2', '2016-12-16 11:20:43.903')
+ INSERT INTO Client (ClientID, Name, LastModification)
+VALUES (3, 'Client3', '2016-12-16 11:20:43.910')
+ INSERT INTO Client (ClientID, Name, LastModification)
+VALUES (4, 'Client4', '2016-12-16 11:20:43.917')
+ INSERT INTO Client (ClientID, Name, LastModification)
+VALUES (5, 'Client5', '2016-12-16 11:20:43.920')
+
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (1, 1, 'FV 123/16', 1000, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (2, 1, 'FV 128/16', 2000, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (3, 1, 'FV 133/16', 500, '0.05')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (4, 2, 'FV 144/16', 100, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (5, 2, 'FV 148/16', 500, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (6, 4, 'FV 156/16', 100, '0.00')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (7, 4, 'FV 188/16', 3000, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (8, 4, 'FV 1111/16', 1000, '0.05')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (9, 5, 'FV 1112/17', 1000, '0.05')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (10, 5, 'FV 1113/17', 3000, '0.23')
+INSERT INTO Sale (SaleID, ClientID, Invoice, Nett, VAT)
+VALUES (11, 5, 'FV 12/17', 8000, '0.25')

@@ -1,0 +1,18 @@
+MongoDB to NoSQL baza danych, która przechowuje dane w postaci dokumentów JSON.
+Poniższy przykład pokazuje jak dodać nowego użytkownika do bazy danych:
+
+// Tworzenie nowego dokumentu
+const newUser = {
+  name: 'John Doe',
+  age: 30,
+  email: 'johndoe@example.com'
+};
+
+// Łączymy się z bazą danych i dodajemy nowy dokument
+const db = require('mongoose');
+db.connect('mongodb://localhost/mydatabase');
+
+db.collection('users').insertOne(newUser, (err, res) => {
+  if (err) throw err;
+  console.log('New user added to the database');
+});

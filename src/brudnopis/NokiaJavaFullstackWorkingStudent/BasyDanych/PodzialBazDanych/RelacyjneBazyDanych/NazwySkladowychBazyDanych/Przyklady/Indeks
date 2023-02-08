@@ -1,0 +1,2 @@
+Przykładowy kod w MS SQL Server:
+    CREATE INDEX nazwa_indeksu ON nazwa_tabeli (kolumna);

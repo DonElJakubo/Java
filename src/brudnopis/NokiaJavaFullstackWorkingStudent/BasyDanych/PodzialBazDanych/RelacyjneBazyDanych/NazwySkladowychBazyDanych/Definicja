@@ -1,0 +1,13 @@
+Składowe bazy danych MS SQL Server:
+
+1. Tabela: to struktura przechowująca dane w bazie danych, w której wiersze reprezentują rekordy, a kolumny reprezentują konkretne dane.
+
+2. Widok: to dynamiczny zestaw danych, który można wyświetlić w bazie danych.
+
+3. Indeks: to struktura danych używana do poprawy wydajności dostępu do danych.
+
+4. Procedury składowane: to zestaw instrukcji służących do wykonywania określonych zadań.
+
+5. Funkcje składowane: to zestaw instrukcji służących do wykonywania określonego zadania i zwracania wartości.
+
+6. Trigger: to procedura wykonywana po wystąpieniu określonego zdarzenia.

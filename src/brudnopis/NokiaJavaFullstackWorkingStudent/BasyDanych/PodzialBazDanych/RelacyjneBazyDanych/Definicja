@@ -1,0 +1,4 @@
+Definicja:
+Relacyjna baza danych to system zarządzania bazami danych, w którym dane są przechowywane w formie tabel.
+Dane są skojarzone ze sobą poprzez użycie identyfikatorów lub indeksów, które są unikalne dla wszystkich wierszy w tabeli.
+Relacyjna baza danych jest zazwyczaj używana do przechowywania dużych zbiorów danych, które można wykorzystać w wielu zastosowaniach.

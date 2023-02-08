@@ -1,0 +1,10 @@
+3. Integralność danych: Integralność danych oznacza, że wszystkie dane w bazie danych są zgodne z określonymi zasadami.
+Na przykład, jeśli są określone ograniczenia dotyczące długości danych, raporty powinny być tworzone zgodnie z tymi ograniczeniami.
+
+Przykład:
+CREATE TABLE Adresy (
+    AdresID INTEGER,
+    Ulica VARCHAR(50) NOT NULL,
+    Miasto VARCHAR(50) NOT NULL,
+    Kod_pocztowy VARCHAR(10) NOT NULL
+    );

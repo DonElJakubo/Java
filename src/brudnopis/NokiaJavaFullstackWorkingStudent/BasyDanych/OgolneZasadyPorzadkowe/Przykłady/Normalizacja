@@ -1,0 +1,11 @@
+1. Normalizacja danych: Normalizacja danych polega na podzieleniu danych na mniejsze, bardziej znormalizowane części,
+co zmniejsza powtarzalność i ułatwia wyszukiwanie informacji.
+Na przykład, jeśli tabela bazy danych ma kolumnę „Adres”, lepiej jest podzielić ją na trzy kolumny: „Ulica”, „Miasto” i „Kod pocztowy”.
+
+    Przykład:
+    CREATE TABLE Adresy (
+    AdresID INTEGER,
+    Ulica VARCHAR(50),
+    Miasto VARCHAR(50),
+    Kod_pocztowy VARCHAR(10)
+    );
