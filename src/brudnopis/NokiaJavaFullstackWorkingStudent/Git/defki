@@ -1,0 +1,95 @@
+podstawowe komendy git i do czego służą oraz przykłady użycia w javie
+
+• git init - komenda służy do tworzenia nowego repozytorium git. Przykład użycia w Javie:
+
+git init
+
+• git clone - komenda służy do klonowania istniejącego repozytorium zdalnego. Przykład użycia w Javie:
+
+git clone [url repozytorium zdalnego]
+
+• git add - komenda służy do dodawania plików do indeksu. Przykład użycia w Javie:
+
+git add [nazwa pliku]
+
+• git commit - komenda służy do tworzenia nowych wersji plików i ich wysyłania do repozytorium. Przykład użycia w Javie:
+
+git commit -m "Komentarz"
+
+• git push - komenda służy do wysyłania plików do repozytorium zdalnego. Przykład użycia w Javie:
+
+git push origin master
+
+
+• git pull - komenda służy do pobierania plików z repozytorium zdalnego. Przykład użycia w Javie:
+
+git pull origin master
+
+• git status - komenda służy do sprawdzenia stanu plików w lokalnym repozytorium. Przykład użycia w Javie:
+
+git status
+
+• git branch - komenda służy do tworzenia i zarządzania gałęziami w repozytorium. Przykład użycia w Javie:
+
+git branch [nazwa gałęzi]
+
+• git log - komenda służy do wyświetlania historii zmian w repozytorium. Przykład użycia w Javie:
+
+git log
+
+• git merge - komenda służy do scalania gałęzi w repozytorium. Przykład użycia w Javie:
+
+git merge [nazwa gałęzi]
+
+
+• git config - komenda służy do konfigurowania ustawień dla repozytorium. Przykład użycia w Javie:
+
+git config --global user.name "[nazwa użytkownika]"
+
+• git diff - komenda służy do wyświetlania różnic pomiędzy wersjami plików. Przykład użycia w Javie:
+
+git diff [nazwa pliku]
+
+• git reset - komenda służy do resetowania plików do poprzedniej wersji. Przykład użycia w Javie:
+
+git reset --hard [nazwa pliku]
+
+• git checkout - komenda służy do przełączania się między różnymi gałęziami w repozytorium. Przykład użycia w Javie:
+
+git checkout [nazwa gałęzi]
+
+• git tag - komenda służy do tworzenia tagów w repozytorium. Przykład użycia w Javie:
+
+git tag [nazwa tagu]
+
+• git stash - komenda służy do zapisywania zmian w repozytorium. Przykład użycia w Javie:
+
+git stash
+
+• git remote - komenda służy do dodawania i zarządzania zdalnymi repozytoriami. Przykład użycia w Javie:
+
+git remote add [nazwa zdalnego repozytorium] [url zdalnego repozytorium]
+
+• git fetch - komenda służy do pobierania zmian z zdalnego repozytorium. Przykład użycia w Javie:
+
+git fetch [nazwa zdalnego repozytorium]
+
+• git merge - komenda służy do scalania gałęzi w repozytorium. Przykład użycia w Javie:
+
+git merge [nazwa gałęzi]
+
+• git rebase - komenda służy do przekształcania historii repozytorium. Przykład użycia w Javie:
+
+git rebase [nazwa gałęzi]
+
+• git clean - komenda służy do usuwania plików nieznanych repozytorium. Przykład użycia w Javie:
+
+git clean -f [nazwa pliku]
+
+• git cherry-pick - komenda służy do wybierania konkretnych zmian z historii repozytorium. Przykład użycia w Javie:
+
+git cherry-pick [nazwa zmiany]
+
+• git revert - komenda służy do odwracania zmian w historii repozytorium. Przykład użycia w Javie:
+
+git revert [nazwa zmiany]

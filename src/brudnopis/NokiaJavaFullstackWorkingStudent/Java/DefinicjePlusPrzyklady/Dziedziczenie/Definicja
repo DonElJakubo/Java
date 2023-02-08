@@ -1,0 +1,2 @@
+Dziedziczenie w Java to mechanizm, który pozwala tworzyć nowe klasy na podstawie istniejących klas.
+Nowa klasa może dziedziczyć po wszystkich metodach i atrybutach, które posiada klasa bazowa.

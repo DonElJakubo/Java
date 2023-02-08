@@ -1,0 +1,2 @@
+Wyjątki to obiekty, które służą do komunikowania błędów w czasie wykonywania programu.
+Wyjątki są tworzone w celu umożliwienia programowi wykrycie i opanowanie problemu, zamiast po prostu zatrzymania się i zakończenia działania.

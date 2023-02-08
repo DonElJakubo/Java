@@ -1,0 +1,18 @@
+
+Docker to narzędzie do tworzenia, wdrażania i uruchamiania aplikacji za pomocą kontenerów.
+Docker służy do tworzenia aplikacji, które są izolowane od siebie i od systemu operacyjnego, zapewniając elastyczne, przenośne i wydajne środowisko wirtualizacyjne.
+
+Przykład zastosowania Dockera to tworzenie kontenerów, które można skalować w celu wykonywania określonych zadań.
+Może to służyć do stworzenia aplikacji webowych lub innych aplikacji sieciowych.
+
+Docker jest lepszy od JVM dzięki lepszemu wykorzystaniu zasobów.
+Kontenery Docker są wirtualizowane na poziomie systemu operacyjnego, co pozwala zwiększyć wydajność w porównaniu do tradycyjnych maszyn wirtualnych.
+Kontenery Docker są również lepiej zarządzane, łatwiejsze w skalowaniu i bardziej elastyczne niż JVM.
+
+Aby pracować z dockerem, należy najpierw zainstalować oprogramowanie na komputerze. Następnie należy utworzyć plik Dockerfile, który definiuje konfigurację kontenera.
+Następnie należy uruchomić polecenie docker build, aby skompilować i zbudować kontener. Ostatnim krokiem jest uruchomienie kontenera za pomocą polecenia docker run.
+
+Sprawdzanie logów i błędów:
+
+Aby sprawdzić logi i błędy w Dockercie, należy użyć polecenia docker logs. Polecenie to wyświetli wszystkie logi i błędy wygenerowane przez kontener Docker.
+Można również użyć polecenia docker inspect, aby uzyskać szczegółowe informacje na temat działania kontenera.
